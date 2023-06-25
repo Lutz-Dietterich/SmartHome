@@ -20,6 +20,9 @@ void setup() {
 
   Serial.println(WiFi.localIP());
 
+  WiFi.setAutoReconnect(true);
+  WiFi.persistent(true);
+
 
 }
 
