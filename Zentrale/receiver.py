@@ -18,7 +18,10 @@ client.loop_start()
 
 print("Empfänger gestartet")
 
-time.sleep(60)  # Der Empfänger wird für 60 Sekunden aktiv bleiben und dann stoppen
+# Der Empfänger wird für 60 Sekunden aktiv bleiben und dann stoppen
+time.sleep(60)
 
 client.loop_stop()
 client.disconnect()
+
+# das ist ein test
