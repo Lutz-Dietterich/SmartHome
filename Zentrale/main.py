@@ -8,12 +8,15 @@ def main():
     client = mqtt.Client("master")
 
     # verbindung aufbauen
+    print("Verbindung zu Broker: " + broker_address)
     client.connect(broker_address)
 
     # subscribe topic
+    print("subscribe topic")
     client.subscribe("house/main")
 
     # sende nachricht
+    print("Sende Nachricht...")
     client.publish("house/main", "Die Zentrale ist online")
 
 
