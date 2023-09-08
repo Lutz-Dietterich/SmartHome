@@ -45,3 +45,4 @@ Die Umsetzung des Smart-Home Systems erfolgt in mehreren Schritten:
    - Möglichkeit zur Integration weiterer Sensoren, Aktoren oder Funktionen basierend auf den individuellen Anforderungen und Vorlieben.
 
 das ist noch ein test
+das ist noch ein test
